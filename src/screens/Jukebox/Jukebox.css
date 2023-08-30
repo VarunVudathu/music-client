@@ -1,0 +1,106 @@
+.container {
+    background: rgba(122, 134, 148, 0.5);
+    padding: 0px 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+}
+
+.allArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.titleInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 100%;
+    max-height: 100%;
+}
+
+.titleTop {
+    min-width: 90%;
+}
+
+.backBtn {
+    min-width: 10%;
+}
+
+.infoArea {
+    display: flex;
+    flex-direction: row;
+}
+
+.inArea {
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 100%;
+    max-height: 100%;
+    padding: 10px 50px 20px 50px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 2%;
+    background: rgba(71, 85, 102, 0.5);
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.searchBtn {
+    margin-top: 2%;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.trackLoc {
+  padding: 2%;
+}
+
+.trackPlace {
+    padding: 2%;
+    max-height: 515px;
+    overflow-y: auto;
+}
+
+.trackData {
+  display: flex;
+  flex-direction: row;
+  min-width: 50%;
+  align-items: center;
+  border:#000 solid;
+  border-radius: 20px;
+  padding: 8px 8px 5px 15px;
+}
+
+.trackInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 8px 8px 8px 8px;
+  min-width: 70%;
+  max-width: 70%;
+}
+
+.trackItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 75%;
+}
+
+.addBtn {
+    max-height: 50px;
+    align-self: right;
+}
